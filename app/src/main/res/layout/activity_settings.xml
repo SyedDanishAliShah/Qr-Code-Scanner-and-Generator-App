@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/very_light_blue"
+    >
+
+    <ImageView
+        android:id="@+id/back_icon_3"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:src="@drawable/back_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/settings_tv"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:text="@string/settings"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <ImageView
+        android:id="@+id/settings_screen_rectangle_share"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/settings_screen_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_tv"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <ImageView
+        android:id="@+id/circle_for_share_and_download_logo_for_share_settings"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/circle_for_share_and_download_logo"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_screen_rectangle_share"
+        app:layout_constraintEnd_toEndOf="@+id/settings_screen_rectangle_share"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="@+id/settings_screen_rectangle_share"
+        app:layout_constraintTop_toTopOf="@+id/settings_screen_rectangle_share" />
+
+    <ImageView
+        android:id="@+id/share_icon_settings"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/share_icon_settings"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_for_share_and_download_logo_for_share_settings"
+        app:layout_constraintEnd_toEndOf="@+id/circle_for_share_and_download_logo_for_share_settings"
+        app:layout_constraintStart_toStartOf="@+id/circle_for_share_and_download_logo_for_share_settings"
+        app:layout_constraintTop_toTopOf="@+id/circle_for_share_and_download_logo_for_share_settings" />
+
+    <TextView
+        android:id="@+id/share_tv_1"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:text="@string/share"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_screen_rectangle_share"
+        app:layout_constraintEnd_toEndOf="@+id/settings_screen_rectangle_share"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toEndOf="@+id/circle_for_share_and_download_logo_for_share_settings"
+        app:layout_constraintTop_toTopOf="@+id/settings_screen_rectangle_share"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <ImageView
+        android:id="@+id/settings_screen_rectangle_notification"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/settings_screen_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_screen_rectangle_share"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <ImageView
+        android:id="@+id/circle_for_share_and_download_logo_for_notifications_settings"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/circle_for_share_and_download_logo"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_screen_rectangle_notification"
+        app:layout_constraintEnd_toEndOf="@+id/settings_screen_rectangle_notification"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="@+id/settings_screen_rectangle_notification"
+        app:layout_constraintTop_toTopOf="@+id/settings_screen_rectangle_notification" />
+
+    <ImageView
+        android:id="@+id/notification_icon_settings"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/notification_icon_settings"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_for_share_and_download_logo_for_notifications_settings"
+        app:layout_constraintEnd_toEndOf="@+id/circle_for_share_and_download_logo_for_notifications_settings"
+        app:layout_constraintStart_toStartOf="@+id/circle_for_share_and_download_logo_for_notifications_settings"
+        app:layout_constraintTop_toTopOf="@+id/circle_for_share_and_download_logo_for_notifications_settings" />
+
+    <TextView
+        android:id="@+id/notification_tv"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:text="@string/notification"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_screen_rectangle_notification"
+        app:layout_constraintEnd_toEndOf="@+id/settings_screen_rectangle_notification"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/circle_for_share_and_download_logo_for_notifications_settings"
+        app:layout_constraintTop_toTopOf="@+id/settings_screen_rectangle_notification"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <ImageView
+        android:id="@+id/settings_screen_rectangle_language"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/settings_screen_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_screen_rectangle_notification"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <ImageView
+        android:id="@+id/circle_for_share_and_download_logo_for_language_settings"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/circle_for_share_and_download_logo"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintEnd_toEndOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintTop_toTopOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <ImageView
+        android:id="@+id/language_icon_settings"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/language_icon_settings"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_for_share_and_download_logo_for_language_settings"
+        app:layout_constraintEnd_toEndOf="@+id/circle_for_share_and_download_logo_for_language_settings"
+        app:layout_constraintStart_toStartOf="@+id/circle_for_share_and_download_logo_for_language_settings"
+        app:layout_constraintTop_toTopOf="@+id/circle_for_share_and_download_logo_for_language_settings" />
+
+    <TextView
+        android:id="@+id/language_tv"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:text="@string/language"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintEnd_toEndOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintTop_toTopOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <ImageView
+        android:id="@+id/settings_screen_rectangle_rating"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/settings_screen_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_screen_rectangle_language"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <ImageView
+        android:id="@+id/circle_for_share_and_download_logo_for_rating_settings"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/circle_for_share_and_download_logo"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_screen_rectangle_rating"
+        app:layout_constraintEnd_toEndOf="@+id/settings_screen_rectangle_rating"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="@+id/settings_screen_rectangle_rating"
+        app:layout_constraintTop_toTopOf="@+id/settings_screen_rectangle_rating" />
+
+    <ImageView
+        android:id="@+id/rating_icon_settings"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/rating_icon_settings"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_for_share_and_download_logo_for_rating_settings"
+        app:layout_constraintEnd_toEndOf="@+id/circle_for_share_and_download_logo_for_rating_settings"
+        app:layout_constraintStart_toStartOf="@+id/circle_for_share_and_download_logo_for_rating_settings"
+        app:layout_constraintTop_toTopOf="@+id/circle_for_share_and_download_logo_for_rating_settings" />
+
+    <TextView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:text="@string/rate_now"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_screen_rectangle_rating"
+        app:layout_constraintEnd_toEndOf="@+id/settings_screen_rectangle_rating"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toEndOf="@+id/circle_for_share_and_download_logo_for_rating_settings"
+        app:layout_constraintTop_toTopOf="@+id/settings_screen_rectangle_rating" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container_settings"
+        android:layout_width="@dimen/_247sdp"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_screen_rectangle_rating"
+        app:layout_constraintVertical_bias="0.26999998">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/placeholder_layout_for_shimmer_loading"/>
+
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView_activity_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

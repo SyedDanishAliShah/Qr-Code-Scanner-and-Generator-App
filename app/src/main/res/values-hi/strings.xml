@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qr_code_bar_code_scanner">क्यूआर कोड बारकोड स्कैनर</string>
+    <string name="continue_1">जारी रखें</string>
+    <string name="qr_code">क्यूआर कोड</string>
+    <string name="qr_code_scanner">क्यूआर कोड स्कैनर</string>
+    <string name="qr_code_generator">क्यूआर कोड जेनरेटर</string>
+    <string name="history">इतिहास</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="qr_code_scan">क्यूआर कोड स्कैन</string>
+    <string name="take_a_photo">फ़ोटो लें</string>
+    <string name="capture_qr_code_for_scan">स्कैन के लिए क्यूआर कोड को कैप्चर करें</string>
+    <string name="choose_from_gallery">गैलरी से चुनें</string>
+    <string name="choose_image_from_gallery_for_scan">स्कैन के लिए गैलरी से छवि चुनें"</string>
+    <string name="scan_result">स्कैन परिणाम"</string>
+    <string name="date_and_time_of_scan">स्कैन की तारीख और समय:</string>
+    <string name="body">शरीर</string>
+    <string name="web_address">वेब पता:</string>
+    <string name="share">साझा करें</string>
+    <string name="download">डाउनलोड करें</string>
+    <string name="scan_again">फिर से स्कैन करें</string>
+    <string name="home">होम</string>
+    <string name="notification">अधिसूचना</string>
+    <string name="rate_now">अब मूल्यांकन करें</string>
+    <string name="language">भाषा</string>
+    <string name="qr_generator">क्यूआर जनरेटर</string>
+    <string name="text">पाठ</string>
+    <string name="wifi">वाईफ़ाई</string>
+    <string name="phone">फ़ोन</string>
+    <string name="website">वेबसाइट</string>
+    <string name="qr_code_will_be_difficult_to_identify_when_content_exceeds_150_characters">QR कोड को पहचानना मुश्किल हो जाएगा जब सामग्री 150 अक्षरों से अधिक हो।</string>
+    <string name="create">बनाएँ</string>
+    <string name="please_fill_in_the_text_here">कृपया यहाँ पाठ भरें।</string>
+    <string name="password">पासवर्ड</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="website_address">वेबसाइट पता</string>
+    <string name="generated_qr_result">उत्पन्न किया गया क्यूआर परिणाम</string>
+    <string name="decorate">सजाना</string>
+    <string name="generate_again">फिर से उत्पन्न करें</string>
+    <string name="decorate_qr">क्यूआर सुशोभित करें</string>
+    <string name="logo">लोगो</string>
+    <string name="qr_color">क्यूआर रंग</string>
+    <string name="qr_logo">क्यूआर लोगो</string>
+    <string name="save">सहेजें</string>
+    <string name="discard">छोड़ें</string>
+    <string name="qr_color_1">क्यूआर रंग</string>
+    <string name="enter_text">टेक्स्ट दर्ज करें</string>
+    <string name="text_solid_color">पाठ सॉलिड रंग</string>
+
+</resources>
