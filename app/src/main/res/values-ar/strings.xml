@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qr_code_bar_code_scanner">ماسح الباركود والرموز الشريطية للكيو آر</string>
+    <string name="continue_1">استمر</string>
+    <string name="qr_code">رمز الاستجابة السريعة</string>
+    <string name="qr_code_scanner">ماسح رمز الاستجابة السريعة</string>
+    <string name="qr_code_generator">مولد رمز الاستجابة السريعة</string>
+    <string name="history">التاريخ</string>
+    <string name="settings">الإعدادات</string>
+    <string name="qr_code_scan">مسح رمز الاستجابة السريعة</string>
+    <string name="take_a_photo">التقاط صورة</string>
+    <string name="capture_qr_code_for_scan">التقاط رمز الاستجابة السريعة للمسح</string>
+    <string name="choose_from_gallery">اختيار من المعرض</string>
+    <string name="choose_image_from_gallery_for_scan">اختيار صورة من المعرض للمسح</string>
+    <string name="scan_result">نتيجة المسح</string>
+    <string name="date_and_time_of_scan">تاريخ ووقت المسح</string>
+    <string name="body">الجسم</string>
+    <string name="web_address">عنوان الويب</string>
+    <string name="share">مشاركة</string>
+    <string name="download">تحميل</string>
+    <string name="scan_again">مسح مرة أخرى</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="notification">إشعار</string>
+    <string name="rate_now">قيم الآن</string>
+    <string name="language">للغة</string>
+    <string name="qr_generator">مُنشئ الرمز الشريطي ثنائي الأبعاد</string>
+    <string name="text">نص</string>
+    <string name="wifi">واي فاي</string>
+    <string name="phone">تليفون</string>
+    <string name="website">موقع ويب</string>
+    <string name="qr_code_will_be_difficult_to_identify_when_content_exceeds_150_characters">سيكون من الصعب تحديد رمز الاستجابة السريعة عندما يتجاوز المحتوى 150 حرفً</string>
+    <string name="create">إنشاء</string>
+    <string name="please_fill_in_the_text_here">يرجى ملء النص هن</string>
+    <string name="password">كلمة المرور:</string>
+    <string name="phone_number">رقم الهاتف:</string>
+    <string name="website_address">عنوان الموقع الإلكتروني:</string>
+    <string name="generated_qr_result">الناتج المولد لرمز الاستجابة السريعة</string>
+    <string name="decorate">تزيين</string>
+    <string name="generate_again">إنشاء مرة أخرى</string>
+    <string name="decorate_qr">زينة الكيو آر</string>
+    <string name="logo">الشعار</string>
+    <string name="qr_color">QR اللون</string>
+    <string name="qr_logo">QR الشعار</string>
+    <string name="save">حفظ</string>
+    <string name="discard">تجاهل</string>
+    <string name="qr_color_1">QR اللون</string>
+    <string name="enter_text">أدخل النص</string>
+    <string name="text_solid_color">لون النص الصلب</string>
+
+</resources>

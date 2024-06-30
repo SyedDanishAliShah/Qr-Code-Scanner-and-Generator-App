@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/history_data_card"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/history_data_card"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/resultTypeIcon"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/bg_black_shape"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="15dp"
+        android:src="@drawable/ic_text_documents"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <TextView
+        android:id="@+id/qr_data_tv"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:text=""
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <TextView
+        android:id="@+id/time_tv_1"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:text=""
+        android:textSize="@dimen/_9ssp"
+        android:layout_marginTop="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <TextView
+        android:id="@+id/date_tv_1"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:text=""
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:textSize="@dimen/_9ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

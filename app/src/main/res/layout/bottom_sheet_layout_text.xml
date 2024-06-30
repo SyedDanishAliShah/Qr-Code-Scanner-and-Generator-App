@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Edit text for entering text -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_text"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/very_light_blue"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:inputType="text"/>
+
+    <FrameLayout
+        android:id="@+id/frame_layout_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        >
+
+        <ImageView
+            android:id="@+id/save_button_rectangle_bottom_sheet_qr_design_text"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:src="@drawable/splash_screen_button"
+            android:layout_marginStart="@dimen/_25sdp"
+            />
+
+        <TextView
+            android:id="@+id/save_tv_bottom_sheet_qr_design_text"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/save"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginStart="@dimen/_125sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            />
+
+        <ImageView
+            android:id="@+id/discard_rectangle_bottom_sheet_qr_design_text"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:src="@drawable/home_rectangle_for_scanner_result_screen"
+            />
+
+        <TextView
+            android:id="@+id/discard_tv_bottom_sheet_qr_design_text"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/_119sdp"
+            android:layout_marginTop="@dimen/_75sdp"
+            android:text="@string/discard"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

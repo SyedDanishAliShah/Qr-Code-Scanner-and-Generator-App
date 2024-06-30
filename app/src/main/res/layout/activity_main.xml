@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/qr_code_tv"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:text="@string/qr_code"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/qr_code_scanner_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+    <ImageView
+        android:id="@+id/qr_code_scanner_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/qr_code_scanner_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/qr_code_scanner_tv"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:text="@string/qr_code_scanner"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/qr_code_scanner_card"
+        app:layout_constraintEnd_toEndOf="@+id/qr_code_scanner_card"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="@+id/qr_code_scanner_card"
+        app:layout_constraintTop_toTopOf="@+id/qr_code_scanner_card"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <ImageView
+        android:id="@+id/qr_code_generator_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/qr_code_generator_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:text="@string/qr_code_generator"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/qr_code_generator_card"
+        app:layout_constraintEnd_toEndOf="@+id/qr_code_generator_card"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/qr_code_generator_card"
+        app:layout_constraintTop_toTopOf="@+id/qr_code_generator_card"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <ImageView
+        android:id="@+id/home_screen_history_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/home_screen_history_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/settings_card_icon_home_screen"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qr_code_scanner_card"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <TextView
+        android:id="@+id/history_tv"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/history"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/home_screen_history_card"
+        app:layout_constraintEnd_toEndOf="@+id/home_screen_history_card"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="@+id/home_screen_history_card"
+        app:layout_constraintTop_toTopOf="@+id/home_screen_history_card"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/settings_card_icon_home_screen"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/settings_card_icon_home_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qr_code_generator_card"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/settings"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_card_icon_home_screen"
+        app:layout_constraintEnd_toEndOf="@+id/settings_card_icon_home_screen"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/settings_card_icon_home_screen"
+        app:layout_constraintTop_toTopOf="@+id/settings_card_icon_home_screen"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container_main"
+        android:layout_width="@dimen/_247sdp"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_screen_history_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/placeholder_layout_for_shimmer_loading"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView_activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+           />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qr_logo"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- GridLayout -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:columnCount="3"
+        android:rowCount="6">
+
+        <!-- Column 1, Row 1 -->
+        <ImageView
+            android:id="@+id/fb_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_65sdp"
+            android:src="@drawable/fb_icon_bottom_sheet" />
+
+        <!-- Column 2, Row 1 -->
+        <ImageView
+            android:id="@+id/paypal_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:src="@drawable/paypal_icon_bottom_sheet" />
+
+        <!-- Column 3, Row 1 -->
+        <ImageView
+            android:id="@+id/messenger_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:src="@drawable/messenger_logo_bottom_sheet" />
+
+        <ImageView
+            android:id="@+id/whatsapp_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:src="@drawable/whatsapp_logo_bottom_sheet"
+
+            />
+
+        <ImageView
+            android:id="@+id/skype_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:src="@drawable/skype_logo_bottom_sheet"
+            />
+
+        <ImageView
+            android:id="@+id/pinterest_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:src="@drawable/pinterest_logo_bottom_sheet"
+            />
+
+
+        <ImageView
+            android:id="@+id/mastercard_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:src="@drawable/master_card_logo_bottom_sheet" />
+
+        <ImageView
+            android:id="@+id/twitter_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter_logo_bottom_sheet"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            />
+
+        <ImageView
+            android:id="@+id/youtube_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/youtube_icon_bottom_sheet"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            />
+
+        <ImageView
+            android:id="@+id/bitcoin_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_65sdp"
+            android:src="@drawable/bitcoin_icon_bottom_sheet"
+            />
+
+        <ImageView
+            android:id="@+id/coins_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:src="@drawable/coins_icon_bottom_sheet"
+            />
+
+        <ImageView
+            android:id="@+id/linkedin_logo_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:src="@drawable/linkedin_icon_bottom_sheet"
+            />
+        <!-- Add more ImageViews for Row 1, then continue with Rows 2-6 -->
+    </GridLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        >
+        
+        <ImageView
+            android:id="@+id/save_button_rectangle_bottom_sheet"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:src="@drawable/splash_screen_button"
+            android:layout_marginStart="@dimen/_40sdp"
+            />
+
+        <TextView
+            android:id="@+id/save_tv_bottom_sheet"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/save"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginStart="@dimen/_140sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            />
+
+        <ImageView
+            android:id="@+id/discard_rectangle_bottom_sheet"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:src="@drawable/home_rectangle_for_scanner_result_screen"
+            />
+
+        <TextView
+            android:id="@+id/discard_tv_bottom_sheet"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/_134sdp"
+            android:layout_marginTop="@dimen/_75sdp"
+            android:text="@string/discard"
+            />
+
+    </FrameLayout>
+    
+</LinearLayout>
