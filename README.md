@@ -1,1 +1,1 @@
-# Qr-Code-Scanner-and-Generator-App
+# Qr-Code-Scanner-and-Generator-Android-App
